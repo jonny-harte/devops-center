@@ -24,7 +24,7 @@ private class HotFixTest {
     @isTest
     static void testHotFix() {
         String expected = 'Hello, HotFix!';
-        String actual = HelloWorld.sayHello();
+        String actual = HotFix.sayHotFix();
         System.assertEquals(expected, actual, 'The sayHotFix method did not return the expected string.');
     }
 }
