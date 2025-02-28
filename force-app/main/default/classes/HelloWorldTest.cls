@@ -22,7 +22,80 @@
 @isTest
 private class HelloWorldTest {
     @isTest
-    static void testSayHello() {
+    static void testSayHello1() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello2() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello3() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello4() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello5() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello6() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello7() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello8() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello9() {
+        insert new Account(Name = 'Test Account');
+        String expected = 'Hello, World!';
+        String actual = HelloWorld.sayHello();
+        System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
+    }
+
+    @isTest
+    static void testSayHello10() {
+        insert new Account(Name = 'Test Account');
         String expected = 'Hello, World!';
         String actual = HelloWorld.sayHello();
         System.assertEquals(expected, actual, 'The sayHello method did not return the expected string.');
